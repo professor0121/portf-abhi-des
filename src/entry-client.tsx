@@ -6,10 +6,13 @@ import { BrowserRouter } from 'react-router-dom'
 // App level imports
 import { Router } from './router'
 import './index.css'
-
+import { getTheme, setTheme } from "./utils/theme"
 /**
   At a high level, this file is responsible for converting static HTML into dynamic content by attaching event handlers to html elements,(known as hydrating), enabling client-side interactivity for end-users.
  */
+// Apply saved theme BEFORE hydration
+setTheme(getTheme())
+
 ReactDOM.hydrateRoot(
   // We call the hydrateRoot method from ReactDOM to attach event handlers to the static HTML content, it will also rehydrate the server-rendered HTML content to make it interactive, as end users interact with the app.
   document.getElementById('root') as HTMLElement,

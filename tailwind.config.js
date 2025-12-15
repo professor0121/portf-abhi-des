@@ -1,14 +1,18 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        body: ["Inter", "system-ui", "sans-serif"],
+        heading: ["Poppins", "sans-serif"],
+      },
       colors: {
-        primary: "#6366f1",
-        dark: "#0f172a",
+        bg: "rgb(var(--bg))",
+        surface: "rgb(var(--surface))",
+        text: "rgb(var(--text))",
+        muted: "rgb(var(--muted))",
+        primary: "rgb(var(--primary))",
+        border: "rgb(var(--border))",
       },
     },
   },

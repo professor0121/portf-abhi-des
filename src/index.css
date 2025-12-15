@@ -2,11 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+/* -----------------------------
+   THEME VARIABLES
+-------------------------------- */
+:root {
+  /* Light Theme */
+  --bg: 248 250 252;        /* slate-50 */
+  --surface: 255 255 255;  /* white */
+  --text: 15 23 42;        /* slate-900 */
+  --muted: 100 116 139;    /* slate-500 */
+
+  --primary: 79 70 229;    /* indigo-600 */
+  --primary-hover: 67 56 202;
+
+  --border: 226 232 240;   /* slate-200 */
+}
+
+/* Dark Theme */
+.dark {
+  --bg: 15 23 42;          /* slate-900 */
+  --surface: 30 41 59;     /* slate-800 */
+  --text: 226 232 240;     /* slate-200 */
+  --muted: 148 163 184;    /* slate-400 */
+
+  --primary: 99 102 241;   /* indigo-500 */
+  --primary-hover: 129 140 248;
+
+  --border: 51 65 85;      /* slate-700 */
+}
+
+/* -----------------------------
+   BASE STYLES
+-------------------------------- */
 html, body {
   height: 100%;
 }
 
 body {
-  background-color: #0f172a;
-  color: white;
+  @apply antialiased transition-colors duration-300;
+  background-color: rgb(var(--bg));
+  color: rgb(var(--text));
+}
+
+
+@layer components {
+  .heading-xl {
+    @apply font-heading text-4xl md:text-6xl font-bold tracking-tight;
+  }
+
+  .heading-lg {
+    @apply font-heading text-3xl md:text-4xl font-semibold;
+  }
+
+  .heading-md {
+    @apply font-heading text-2xl font-semibold;
+  }
+
+  .text-body {
+    @apply font-body text-base text-muted leading-relaxed;
+  }
+
+  .text-small {
+    @apply font-body text-sm text-muted;
+  }
 }

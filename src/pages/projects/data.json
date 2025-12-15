@@ -1,0 +1,102 @@
+[
+  {
+    "id": "project-1",
+    "title": "Portfolio Website",
+    "slug": "portfolio-website",
+    "description": "A fully responsive portfolio website built with React, Tailwind CSS, and Vite. Showcases my projects, skills, and contact information.",
+    "image": "/images/projects/portfolio.png",
+    "techStack": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+    "liveUrl": "https://professor0121.github.io/portfolio",
+    "githubUrl": "https://github.com/professor0121/portf-abhi-des"
+  },
+  {
+    "id": "project-2",
+    "title": "Task Manager App",
+    "slug": "task-manager-app",
+    "description": "A task management web application with CRUD functionality, user authentication, and real-time updates using Socket.IO.",
+    "image": "/images/projects/task-manager.png",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
+    "liveUrl": "https://taskmanager.example.com",
+    "githubUrl": "https://github.com/professor0121/task-manager"
+  },
+  {
+    "id": "project-3",
+    "title": "E-commerce Store",
+    "slug": "ecommerce-store",
+    "description": "A modern e-commerce web app with product catalog, shopping cart, and checkout functionality. Supports multiple payment methods.",
+    "image": "/images/projects/ecommerce.png",
+    "techStack": ["React", "Redux Toolkit", "Tailwind CSS", "Stripe API", "Node.js"],
+    "liveUrl": "https://ecommerce.example.com",
+    "githubUrl": "https://github.com/professor0121/ecommerce-store"
+  },
+  {
+    "id": "project-4",
+    "title": "Chat Application",
+    "slug": "chat-application",
+    "description": "A real-time chat application with private and group chats, typing indicators, and online/offline status. Built using Socket.IO and JWT authentication.",
+    "image": "/images/projects/chat-app.png",
+    "techStack": ["React", "Socket.IO", "Node.js", "Express", "JWT"],
+    "liveUrl": "https://chatapp.example.com",
+    "githubUrl": "https://github.com/professor0121/chat-app"
+  },
+  {
+    "id": "project-5",
+    "title": "URL Shortener",
+    "slug": "url-shortener",
+    "description": "A URL shortening service with analytics, custom short links, and expiration features, built with React and Node.js.",
+    "image": "/images/projects/url-shortener.png",
+    "techStack": ["React", "Node.js", "Express", "MongoDB"],
+    "liveUrl": "https://urlshortener.example.com",
+    "githubUrl": "https://github.com/professor0121/url-shortener"
+  },
+  {
+    "id": "project-6",
+    "title": "Reels Clone",
+    "slug": "reels-clone",
+    "description": "A short-video platform clone similar to Instagram Reels, featuring auto-play, swipe gestures, and likes/comments functionality.",
+    "image": "/images/projects/reels.png",
+    "techStack": ["React Native", "Expo", "Redux Toolkit", "Node.js", "Socket.IO"],
+    "liveUrl": "https://reelsclone.example.com",
+    "githubUrl": "https://github.com/professor0121/reels-clone"
+  },
+  {
+    "id": "project-7",
+    "title": "Multi-Currency E-commerce",
+    "slug": "multi-currency-ecommerce",
+    "description": "An e-commerce platform supporting multiple currencies, language localization, and real-time price updates.",
+    "image": "/images/projects/multi-currency.png",
+    "techStack": ["React", "Next.js", "Redux Toolkit", "Tailwind CSS", "Stripe API"],
+    "liveUrl": "https://multicurrency.example.com",
+    "githubUrl": "https://github.com/professor0121/multi-currency-ecommerce"
+  },
+  {
+    "id": "project-8",
+    "title": "Travel Booking App",
+    "slug": "travel-booking-app",
+    "description": "A travel management system to browse packages, book trips, and manage customer data with role-based access.",
+    "image": "/images/projects/travel.png",
+    "techStack": ["Next.js", "MongoDB", "Express", "Node.js", "JWT"],
+    "liveUrl": "https://travelbooking.example.com",
+    "githubUrl": "https://github.com/professor0121/travel-booking"
+  },
+  {
+    "id": "project-9",
+    "title": "Admin Dashboard",
+    "slug": "admin-dashboard",
+    "description": "A modern admin dashboard with charts, tables, and user management features, built using React, Tailwind CSS, and Redux Toolkit.",
+    "image": "/images/projects/admin-dashboard.png",
+    "techStack": ["React", "Redux Toolkit", "Tailwind CSS", "Recharts"],
+    "liveUrl": "https://admindashboard.example.com",
+    "githubUrl": "https://github.com/professor0121/admin-dashboard"
+  },
+  {
+    "id": "project-10",
+    "title": "Machine Learning Movie Recommender",
+    "slug": "movie-recommender",
+    "description": "A movie recommendation system using Linear Regression, Logistic Regression, Decision Trees, and SVM algorithms deployed as a web app.",
+    "image": "/images/projects/movie-recommender.png",
+    "techStack": ["Python", "Scikit-Learn", "Flask", "React"],
+    "liveUrl": "https://movierecommender.example.com",
+    "githubUrl": "https://github.com/professor0121/movie-recommender"
+  }
+]
